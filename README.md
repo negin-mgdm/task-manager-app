@@ -67,3 +67,38 @@ e  - Exit
 - Users can add tasks or view their own tasks.
 - Admin users have access to register new users and view task/user statistics.
 
+## File Descriptions
+
+- `task_manager.py` – Main program that handles user login, task addition, viewing, and user registration.
+- `task_template.py` – Initial template for the task manager project.
+- `tasks.txt` – Stores task details in the format:
+
+```
+username, task_title, task_description, assigned_date, due_date, completion_status
+```
+
+- `user.txt` – Stores usernames and passwords in the format:
+
+```
+username, password
+```
+
+## Example Task Entry (tasks.txt)
+
+```
+admin, Register Users with task_manager.py, Use task_manager.py to add the usernames and passwords for all team members, 10 Oct 2019, 20 Oct 2019, No
+```
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests for new features or improvements.
+
+---
+
+
+<p align="center"><strong>Author</strong>: <em>Negin Moghadam</em></p> 
+<p align="center"><strong>Project</strong>: <em>Task Manager Application</em></p> 
+
+
+
+
