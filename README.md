@@ -48,5 +48,22 @@ Password: adm1n
 ```
 The admin user can register additional users through the application.
 
+## Usage
 
+1. **Login**
+
+- Upon running the program, users are prompted to log in using their credentials from `user.txt`.
+
+2. **Menu Options (Post Login)**
+
+```
+r  - Register a user (Admin only)  
+a  - Add a task  
+va - View all tasks  
+vm - View my tasks  
+s  - Show statistics (Admin only)  
+e  - Exit  
+```
+- Users can add tasks or view their own tasks.
+- Admin users have access to register new users and view task/user statistics.
 
